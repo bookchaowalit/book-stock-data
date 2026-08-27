@@ -2,6 +2,8 @@
 
 Stock market data product (Yahoo public chart endpoint, best-effort).
 
+Collection cron: `bash setup_cron.sh install` runs bounded Yahoo Finance capture daily at 08:00 into `data/exported/`. Lake ingest remains a separate command.
+
 Migration status: **lake-first** using the shared Solo Empire
 `data_lake.product_adapter` contract (same path as `book-crypto-data`).
 
